@@ -1,0 +1,5 @@
+{% for object in object_list %}
+	<p>{{ object.name }}</p>
+{% endfor %}
+<p>Do you want to <h1><a href="{% url 'create' %}">Create</a></h1>another entry
+<p>Or may back to <a href="{% url 'home' %}">Home</a>
